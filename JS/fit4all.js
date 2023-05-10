@@ -1,4 +1,4 @@
-let nombre = prompt("Bienvenido a Fit4All, ¿Cómo te llamas?");
+let nombre = prompt("Bienvenido a Fit for Everyone, ¿Cómo te llamas?");
 let respuesta = prompt("¿Quieres calcular tus calorías?");
 while (respuesta == "si"){
 let objetivo = prompt(`Genial, ${nombre}. Por favor indica si tu objetivo es perder peso, mantener peso o ganar peso`);
