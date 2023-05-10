@@ -1,6 +1,6 @@
 let nombre = prompt("Bienvenido a Fit for Everyone, ¿Cómo te llamas?");
 let respuesta = prompt("¿Quieres calcular tus calorías?");
-while (respuesta == "si"){
+while (respuesta == "si" || "sí" || "SI" || "SÍ"){
 let objetivo = prompt(`Genial, ${nombre}. Por favor indica si tu objetivo es perder peso, mantener peso o ganar peso`);
 let sexo = prompt("Ahora indica su sexo con H o M");
 let edad = parseInt(prompt("También indica tu edad"));
